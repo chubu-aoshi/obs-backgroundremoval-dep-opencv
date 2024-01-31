@@ -77,4 +77,3 @@ cmake opencv -B build_$1 \
 cmake --build "build_$CONFIG"
 cmake --install "build_$CONFIG" --prefix "release/$CONFIG"
 tar -C "release/$CONFIG" -cvf "release/opencv-linux-$VERSION-$CONFIG.tar.gz" .
-
